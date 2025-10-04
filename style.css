@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+}
+p, a, label{
+     font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+.nav-bar li:hover{
+    border-bottom: solid 3px black;
+    transition-property: border-bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FC3441;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+button:hover{
+    background-color: #f71d2c;
+    transform: scale(1.02);
+    transition: 0.5;
+}
+button:active{
+    background-color: white;
+    color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: solid black 2px;
+    background-color:  aliceblue;
+}
+main{
+    margin-top: 120px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.nav-bar{
+    flex: 70%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(255, 255, 255); */
+    height: 50px;
+    width: auto;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-bar li{
+    list-style: none;
+    font-size: 30px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);               
+}
+.hero-section{
+    display: flex;
+    margin-top: 28px;
+}
+.hero-img{
+    flex: 70%;
+    display: flex;
+    justify-content: center;
+}
+.hero-img img{
+    width: 600px;
+    border-radius: 10px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text h2{
+    font-size: 72px;
+    margin: 0;
+}
+.hero-text p{
+    margin-top: 20px;
+    width: 600px;
+}
+.hero-text button{
+    width: 200px;
+    padding: 15px;
+    border: 0;
+    margin-top: 40px;
+}
+.hero-text button a{
+    text-decoration: none;
+    color: white;
+}
+.about-section{
+    margin-top: 80px;
+    display: flex;
+}
+.about-img {
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+}
+.about-img img{
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    padding: 0%;
+}
+.about-text{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex
+}
+.about-text p{
+    margin-top: 12px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.skills{
+    margin-top: 80px;
+}
+.skill-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.skill-card img{
+    width: 100%;
+    height: 300px;
+    border: solid 2px rgba(0, 0, 0, 0.151);
+    border-radius: 20px;
+}
+.skill-card h3{
+    margin-top: 12px;
+}
+.skill-card ul{
+    margin-top: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.skill-card li{
+    list-style: none;
+    background-color: #FC3441;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.project-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.project-cards img{
+    width: 100%;
+    height: 300px;
+    border: solid 2px rgba(0, 0, 0, 0.151);
+    border-radius: 20px;
+}
+.contact{
+   background-image: linear-gradient(#fc344169, #fc34417e), url('components\128103.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.contact-form{
+    width: 500px;
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-form h3{
+    text-align: center;
+}
+.form .text{
+    background-color: white;
+    border: solid rgba(0, 0, 0, 0.348) 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form-button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
