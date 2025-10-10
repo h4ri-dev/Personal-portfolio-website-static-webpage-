@@ -202,7 +202,7 @@ main{
     border-radius: 20px;
 }
 .contact{
-   background-image: linear-gradient(#fc344169, #fc34417e), url('components\128103.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.266),rgba(0, 0, 0, 0.266)), url('components/128103.jpg');
     background-position: center center;
     background-size: cover;
     display: flex;
